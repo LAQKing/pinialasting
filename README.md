@@ -9,13 +9,17 @@ jsversion为js版本，tsversion为ts版本
 ts版本
 
 `npm install stateforever-ts --save`
+
 or
+
 `pnpm install stateforever-ts --save`
 
 js版本
 
 `npm install stateforever --save`
+
 or
+
 `pnpm install stateforever --save`
 
 使用
