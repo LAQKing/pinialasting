@@ -1,7 +1,7 @@
 {
-  "name": "@laq7747/pinialasting",
+  "name": "stateforever",
   "author": "LAQ <1563058139@qq.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个轻量级的可加密的pinia持久化插件",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "keywords": [
     "pinia",
-    "lasting",
-    "pinialasting"
+    "state",
+    "stateforever"
   ],
   "repository": {
     "type": "git",

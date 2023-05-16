@@ -1,0 +1,23 @@
+{
+  "name": "stateforever-ts",
+  "author": "LAQ <1563058139@qq.com>",
+  "version": "1.0.2",
+  "description": "一个轻量级的可加密的pinia持久化插件",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pinia",
+    "state",
+    "stateforever"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/laqtxy/pinialasting.git"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  }
+}
