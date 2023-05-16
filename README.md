@@ -4,6 +4,20 @@
 一个轻量级的可加密的pinia持久化插件
 jsversion为js版本，tsversion为ts版本
 
+### 安装
+
+ts版本
+
+`npm install stateforever-ts --save`
+or
+`pnpm install stateforever-ts --save`
+
+js版本
+
+`npm install stateforever --save`
+or
+`pnpm install stateforever --save`
+
 使用
 
 ```js
