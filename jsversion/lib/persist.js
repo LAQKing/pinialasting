@@ -9,8 +9,8 @@ const statepersist = (stateOptions) => {
     // 不设置存储类型则默认sessionStorage
     // 不设置paths则默认缓存当前全部state
     const { encrypt, key = store.$id, paths, storage = sessionStorage } = persist
-
-    const getData = encrypt && storage.getItem(key) ? JSON.parse(base64.decode(storage.getItem(key))) : JSON.parse(storage.getItem(key))
+    const keyValue = storage.getItem(key) || ""
+    const getData = encrypt && keyValue ? JSON.parse(base64.decode(keyValue)) : JSON.parse(keyValue)
     store.$patch(getData)
     store.$subscribe(
       () => {
