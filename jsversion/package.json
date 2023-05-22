@@ -1,7 +1,7 @@
 {
   "name": "stateforever",
   "author": "LAQ <1563058139@qq.com>",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "一个轻量级的可加密的pinia持久化插件",
   "main": "index.js",
   "scripts": {

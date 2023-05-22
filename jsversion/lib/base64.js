@@ -1,5 +1,5 @@
 function Base64() {
-  const _keyStr = `--key start -- ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/= --key end--`
+  const _keyStr = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`
 
   // public method for encoding
   const encode = function (input) {
@@ -31,7 +31,7 @@ function Base64() {
     let chr1, chr2, chr3
     let enc1, enc2, enc3, enc4
     let i = 0
-    input = input.replace(/[^A-Za-z0-9\+\/\=\ \--]/g, "")
+    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "")
     while (i < input.length) {
       enc1 = _keyStr.indexOf(input.charAt(i++))
       enc2 = _keyStr.indexOf(input.charAt(i++))
